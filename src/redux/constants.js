@@ -3,3 +3,5 @@ export const statusFilters = {
   active: "active",
   completed: "completed",
 };
+
+export const selectContacts = (state) => state.contacts.items;
